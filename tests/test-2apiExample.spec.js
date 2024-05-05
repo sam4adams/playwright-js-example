@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+const { test, expect } = require('@playwright/test');
 
 test.only('the GraphQL API works', async ({request}) => {
   // Recording...
