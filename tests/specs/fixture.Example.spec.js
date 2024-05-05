@@ -1,4 +1,4 @@
-const { test, expect } = require("./pages");
+const { test, expect } = require("../fixtures/pages");
 
 test("basic test", async ({ todoPage, page }) => {
     await todoPage.addToDo("something nice");
